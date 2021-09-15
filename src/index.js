@@ -2,7 +2,7 @@ const express = require("express");
 const helmet = require("helmet");
 const compression = require("compression");
 const cors = require("cors");
-require("dotenv").config("/src/.env");
+require("dotenv").config();
 const { uuid } = require("./controllers");
 
 const app = express();

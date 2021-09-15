@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Generador de UUID</title>
+
+<meta http-equiv="Content-Security-Policy"
+
+
+</head> <body> <div style="text-align: center">
+content="default-src 'self' https: http: ws: wss: 'unsafe-eval' 'unsafe-inline'; img-src 'self' data: http: https:; connect-src ws: wss: https: http: ">
+    <h1>Identificador único universal (UUID)</h1><br> <button id = 'btn'>Generar</button> <h4 id="result"></h4>
+</div>
+</body>
+
+<script src="./uuid.js"></script>
+</html>

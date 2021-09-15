@@ -4,7 +4,7 @@ btn.addEventListener("click", function () {
 });
 
 function getUuid() {
-  fetch("http://localhost:3000/api/get-uuid")
+  fetch("http://app.generadorid.tk/api/get-uuid",{mode:'cors'})
     .then((response) => response.text())
     .then((json) => {
       document.getElementById("result").innerText = `${json}`;
